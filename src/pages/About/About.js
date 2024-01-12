@@ -10,6 +10,7 @@ import Skills from '../../components/Skills/Skills';
 import SocialLinks from '../../components/SocialLinks/SocialLinks';
 import CustomButton from '../../components/CustomButton/CustomButton';
 import Heading from '../../components/Heading/Heading';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => {
@@ -67,6 +68,14 @@ const About = () => {
 			<Skills />
 			<div className='contact-social about-social'>
 				<SocialLinks ClassName='contact-social-links' />
+				<div className='contact-design'>
+					<p>
+						DESIGNED BY{' '}
+						<Link to='/' className='contact-design-name'>
+							Rishabh Tanwar
+						</Link>
+					</p>
+				</div>
 			</div>
 		</div>
 	);

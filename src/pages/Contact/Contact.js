@@ -7,6 +7,11 @@ import './Contact.css';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
+	const handleClick = () => {
+		window.open(
+			'mailto:rishabtanwar2000@gmail.com?subject=Subject&body=Body%20goes%20here'
+		);
+	};
 	return (
 		<div className='contact-container'>
 			<div className='contact-title'>
@@ -30,9 +35,7 @@ const Contact = () => {
 					<CustomButton
 						name='send me an e-mail'
 						ClassName='contact-button'
-						onclick={window.open(
-							'mailto:rishabtanwar2000@gmail.com?subject=Subject&body=Body%20goes%20here'
-						)}
+						onClick={handleClick}
 					/>
 				</div>
 				<Link to='/' className='contact-arrow'>

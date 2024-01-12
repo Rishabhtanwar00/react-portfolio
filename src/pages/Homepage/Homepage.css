@@ -9,7 +9,7 @@
 @media screen and (max-width: 1025px) {
 	.homepage {
 		height: auto;
-		padding-bottom: 2rem;
+		/* padding-bottom: 2rem; */
 		text-align: center;
 	}
 }
