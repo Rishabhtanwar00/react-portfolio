@@ -1,0 +1,15 @@
+.homepage {
+	height: calc(100vh - 7rem);
+	width: 100vw;
+	position: relative;
+	margin-top: 7rem;
+	color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
+	.homepage {
+		height: auto;
+		padding-bottom: 2rem;
+		text-align: center;
+	}
+}
