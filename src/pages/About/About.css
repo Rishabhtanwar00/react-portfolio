@@ -80,7 +80,7 @@
 	}
 	.about-details {
 		flex-direction: column-reverse;
-		padding: 10px;
+		padding: 0 10px;
 	}
 	.about-details .about-social {
 		display: none;
@@ -88,12 +88,13 @@
 	.about-details img {
 		position: relative;
 		right: 0;
+		top: 0;
 		height: 50rem;
 		width: 95vw;
 	}
 	.about-details .about-intro {
 		font-size: 4rem;
-		padding: 2rem;
+		padding: 1rem 2rem 2rem 2rem;
 		text-align: center;
 	}
 	.about-details .about-intro h1:nth-child(1),
