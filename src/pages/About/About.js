@@ -10,7 +10,6 @@ import Skills from '../../components/Skills/Skills';
 import SocialLinks from '../../components/SocialLinks/SocialLinks';
 import CustomButton from '../../components/CustomButton/CustomButton';
 import Heading from '../../components/Heading/Heading';
-import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => {
