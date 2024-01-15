@@ -4,7 +4,7 @@
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	padding-top: 10rem;
+	padding-top: 4rem;
 	color: #fff;
 	overflow-x: hidden;
 }
@@ -87,9 +87,6 @@
 		0 100%
 	);
 }
-.projects-social {
-	padding: 0 4rem 2rem 4rem;
-}
 
 @media screen and (max-width: 1025px) {
 	.project-container {
@@ -117,8 +114,5 @@
 	.project-image img {
 		width: 90vw;
 		height: 90vw;
-	}
-	.projects-social {
-		padding: 0 2rem 2rem 2rem;
 	}
 }

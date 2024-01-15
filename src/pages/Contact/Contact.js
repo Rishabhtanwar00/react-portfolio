@@ -1,6 +1,5 @@
 import React from 'react';
 import CustomButton from '../../components/CustomButton/CustomButton';
-import SocialLinks from '../../components/SocialLinks/SocialLinks';
 import { BsArrow90DegRight } from 'react-icons/bs';
 
 import './Contact.css';
@@ -46,17 +45,6 @@ const Contact = () => {
 				<div className='contact-thanks'>
 					<h3>Thanks for your visit!</h3>
 					<p>You can check out my networks to follow my new adventures!</p>
-				</div>
-				<div className='contact-social'>
-					<SocialLinks ClassName='contact-social-links' />
-					<div className='contact-design'>
-						<p>
-							DESIGNED BY{' '}
-							<Link to='/' className='contact-design-name'>
-								Rishabh Tanwar
-							</Link>
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>

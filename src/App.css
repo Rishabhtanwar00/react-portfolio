@@ -95,7 +95,9 @@ html {
 body {
 	background-color: rgb(17, 17, 17);
 }
-
+.router-container {
+	margin-top: 7rem;
+}
 ::-webkit-scrollbar {
 	width: 8px;
 }

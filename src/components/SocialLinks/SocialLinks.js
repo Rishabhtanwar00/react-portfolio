@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './SocialLinks.css';
 import '../Navbar/Navbar.css';
 
-const SocialLinks = ({ ClassName }) => {
+const SocialLinks = () => {
 	const openInNewTab = (url) => {
 		window.open(url, '_blank', 'noreferrer');
 	};
@@ -13,7 +13,7 @@ const SocialLinks = ({ ClassName }) => {
 			{SocialMediaLinks.map((item) => (
 				<Link
 					key={item.id}
-					className={`menu-item ${ClassName}`}
+					className='menu-item'
 					onClick={() => openInNewTab(`${item.url}`)}
 				>
 					<div>

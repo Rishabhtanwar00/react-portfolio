@@ -88,7 +88,6 @@
 	.about-details img {
 		position: relative;
 		right: 0;
-		top: 56px;
 		height: 50rem;
 		width: 95vw;
 	}
@@ -96,7 +95,6 @@
 		font-size: 4rem;
 		padding: 2rem;
 		text-align: center;
-		/* color: rgb(17, 17, 17); */
 	}
 	.about-details .about-intro h1:nth-child(1),
 	.about-details .about-intro h1:nth-child(2),

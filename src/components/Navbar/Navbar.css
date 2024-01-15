@@ -1,5 +1,5 @@
 .navbar {
-	height: 56px;
+	height: 7rem;
 	border-bottom: 1px solid #fafafa;
 	max-width: 100vw;
 	position: fixed;
@@ -10,7 +10,7 @@
 	z-index: 10;
 	background-color: rgb(17, 17, 17);
 	width: -webkit-fill-available;
-	font-family: 'Mulish';
+	font-family: 'Mulish', sans-serif;
 }
 .navbar-logo {
 	text-decoration: none;
@@ -45,6 +45,10 @@
 	text-transform: uppercase;
 	cursor: pointer;
 }
+.social-links .menu-item {
+	margin-left: 0;
+	margin-right: 4rem;
+}
 
 .menu-item > div:nth-child(1) span {
 	will-change: transform;
@@ -63,6 +67,10 @@
 	transform-origin: top;
 	display: inline-block;
 	transform: translateY(100%) rotateX(-90deg);
+}
+.social-links .menu-item > div:nth-child(1) span,
+.social-links .menu-item > div:nth-child(2) span {
+	font-size: 2rem;
 }
 .hover-clone {
 	position: absolute;
@@ -215,11 +223,13 @@
 	.navbar-links .menu-item > div:nth-child(2) span {
 		font-size: 2rem;
 	}
+	.social-links .menu-item > div:nth-child(1) span,
+	.social-links .menu-item > div:nth-child(2) span {
+		font-size: 1.3rem;
+	}
 	.navbar-links .menu-item .hover-clone {
 		position: absolute;
 		width: 100%;
-		/* top: 50%;
-		left: 50%; */
 		text-align: center;
 		font-family: 'Playfair Display', serif !important;
 		font-style: italic;
@@ -284,6 +294,5 @@
 	}
 	.social-links .menu-item {
 		margin: 0;
-		padding: 1.5rem;
 	}
 }

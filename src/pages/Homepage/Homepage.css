@@ -1,15 +1,14 @@
 .homepage {
-	height: calc(100vh - 7rem);
+	height: calc(100vh - 15rem);
 	width: 100vw;
 	position: relative;
-	margin-top: 7rem;
 	color: #fff;
+	overflow-x: hidden;
 }
 
 @media screen and (max-width: 1025px) {
 	.homepage {
 		height: auto;
-		/* padding-bottom: 2rem; */
 		text-align: center;
 	}
 }

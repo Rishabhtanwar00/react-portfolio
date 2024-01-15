@@ -1,13 +1,12 @@
 .vertical-separator {
 	width: 8rem;
-	height: calc(100vh - 56px);
+	height: calc(100vh - 7rem);
 	border-right: solid 1px #fafafa;
 	border-left: solid 1px #fafafa;
 	position: relative;
 	z-index: 9;
 	display: flex;
 	justify-content: center;
-	margin-top: 56px;
 	overflow: hidden;
 	background-color: rgb(17, 17, 17);
 	font-family: 'Mulish', sans-serif;
@@ -15,6 +14,8 @@
 .horizontal-separator {
 	width: 100vw;
 	height: 10rem;
+	position: relative;
+	background-color: rgb(17, 17, 17);
 	border-top: solid 1px #fafafa;
 	border-bottom: solid 1px #fafafa;
 	color: #fff;
@@ -23,6 +24,7 @@
 	align-items: center;
 	overflow: hidden;
 	font-family: 'Mulish', sans-serif;
+	z-index: 100;
 }
 
 .horizontal-separator h2:nth-child(1) {

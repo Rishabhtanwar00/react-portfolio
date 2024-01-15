@@ -1,14 +1,13 @@
 import React from 'react';
+import Heading from '../../components/Heading/Heading';
 import {
 	useMousePosition,
 	usePrefersReducedMotion,
 } from '../../components/common/UseMousePosition';
 import { FaArrowRight } from 'react-icons/fa6';
 import { projectsArray } from '../../components/common/Data';
-import Heading from '../../components/Heading/Heading';
-import SocialLinks from '../../components/SocialLinks/SocialLinks';
-import './Projects.css';
 import { Link } from 'react-router-dom';
+import './Projects.css';
 
 const Projects = () => {
 	const mousePosition = useMousePosition();
@@ -57,17 +56,6 @@ const Projects = () => {
 						</div>
 					</div>
 				))}
-			</div>
-			<div className='contact-social projects-social'>
-				<SocialLinks ClassName='contact-social-links' />
-				<div className='contact-design'>
-					<p>
-						DESIGNED BY{' '}
-						<Link to='/' className='contact-design-name'>
-							Rishabh Tanwar
-						</Link>
-					</p>
-				</div>
 			</div>
 		</div>
 	);

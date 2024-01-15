@@ -29,7 +29,7 @@ const About = () => {
 				<VerticalSeprator />
 				<div className='about-details'>
 					<div className='about-social'>
-						<SocialLinks ClassName='' />
+						<SocialLinks />
 					</div>
 					<div className='about-intro'>
 						<h1>
@@ -66,17 +66,6 @@ const About = () => {
 			<Features />
 			<EducationAndExperience />
 			<Skills />
-			<div className='contact-social about-social'>
-				<SocialLinks ClassName='contact-social-links' />
-				<div className='contact-design'>
-					<p>
-						DESIGNED BY{' '}
-						<Link to='/' className='contact-design-name'>
-							Rishabh Tanwar
-						</Link>
-					</p>
-				</div>
-			</div>
 		</div>
 	);
 };
