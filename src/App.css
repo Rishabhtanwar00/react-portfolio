@@ -101,6 +101,7 @@ html {
 
 body {
 	background-color: rgb(17, 17, 17);
+	overflow-x: hidden;
 }
 .router-container {
 	margin-top: 6.2rem;

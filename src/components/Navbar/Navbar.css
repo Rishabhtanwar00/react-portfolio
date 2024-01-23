@@ -239,7 +239,7 @@
 		transform: translateY(-100%) rotateX(90deg);
 	}
 	.navbar-links .menu-item:hover.menu-item div:nth-child(2) span {
-		transform: translateY(80%) rotateX(0deg);
+		transform: translateY(50%) rotateX(0deg);
 	}
 	@keyframes menuTranslate {
 		0% {

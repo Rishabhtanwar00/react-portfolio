@@ -115,4 +115,8 @@
 		width: 90vw;
 		height: 90vw;
 	}
+	.project-button,
+	.project-button::after {
+		width: 220px;
+	}
 }
