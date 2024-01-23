@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MyImage from '../../assests/me-2.jpg';
 import Resume from '../../assests/resume.pdf';
 import VerticalSeprator from '../../components/Seprator//VerticalSeprator';
@@ -13,6 +13,10 @@ import Heading from '../../components/Heading/Heading';
 import './About.css';
 
 const About = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const handleDownload = () => {
 		const link = document.createElement('a');
 		link.download = 'RishabhTanwar_Resume';

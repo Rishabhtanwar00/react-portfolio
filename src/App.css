@@ -87,6 +87,13 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/* :root {
+	--background-color: rgb(17, 17, 17);
+}
+
+[data-theme='light'] {
+	--background-color: rgb(255, 255, 255) !important;
+} */
 
 html {
 	font-size: 0.5208333333vw;

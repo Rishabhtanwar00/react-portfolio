@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Heading from '../../components/Heading/Heading';
 import {
 	useMousePosition,
@@ -10,6 +10,10 @@ import { Link } from 'react-router-dom';
 import './Projects.css';
 
 const Projects = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const mousePosition = useMousePosition();
 	const prefersReducedMotion = usePrefersReducedMotion();
 	const transform = prefersReducedMotion

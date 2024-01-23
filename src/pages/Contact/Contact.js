@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CustomButton from '../../components/CustomButton/CustomButton';
 import { BsArrow90DegRight } from 'react-icons/bs';
 
@@ -6,6 +6,10 @@ import './Contact.css';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const handleClick = () => {
 		window.open(
 			'mailto:rishabtanwar2000@gmail.com?subject=Subject&body=Body%20goes%20here'
