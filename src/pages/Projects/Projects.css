@@ -1,5 +1,5 @@
 .projects-container {
-	font-family: 'Mulish';
+	font-family: 'Montserrat';
 	width: 100%;
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
@@ -55,37 +55,22 @@
 }
 
 .project-button {
-	position: relative;
 	margin: 2rem 0;
-	width: 200px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	padding: 10px 20px;
 	background-color: rgb(0, 229, 255);
 	color: rgb(17, 17, 17);
-	text-decoration: none;
-}
-.project-button i {
-	margin: 4px 3px 0 3px;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	position: relative;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 96% 100%, 0 100%, 0% 50%);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.project-button::after {
-	width: 200px;
-	content: '';
-	background: rgb(0, 229, 255);
-	position: absolute;
-	inset: 0;
-	z-index: -1;
-	left: 50px;
-	top: -0.3px;
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% calc(100% - 8px),
-		calc(100% - 8px) 100%,
-		0 100%
-	);
+.project-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); 
 }
 
 @media screen and (max-width: 1025px) {

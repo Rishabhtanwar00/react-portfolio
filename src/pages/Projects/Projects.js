@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import Heading from '../../components/Heading/Heading';
-import {
-	useMousePosition,
-	usePrefersReducedMotion,
-} from '../../components/common/UseMousePosition';
-import { FaArrowRight } from 'react-icons/fa6';
+// import {
+// 	useMousePosition,
+// 	usePrefersReducedMotion,
+// } from '../../components/common/UseMousePosition';
 import { projectsArray } from '../../components/common/Data';
-import { Link } from 'react-router-dom';
 import './Projects.css';
 
 const Projects = () => {
@@ -14,13 +12,13 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const mousePosition = useMousePosition();
-	const prefersReducedMotion = usePrefersReducedMotion();
-	const transform = prefersReducedMotion
-		? null
-		: `translate3d(${mousePosition.x / 20}px, ${mousePosition.y / 20}px,${
-				mousePosition.y + mousePosition.x / 20
-		  }px)`;
+	// const mousePosition = useMousePosition();
+	// const prefersReducedMotion = usePrefersReducedMotion();
+	// const transform = prefersReducedMotion
+	// 	? null
+	// 	: `translate3d(${mousePosition.x / 20}px, ${mousePosition.y / 20}px,${
+	// 			mousePosition.y + mousePosition.x / 20
+	// 	  }px)`;
 
 	const openInNewTab = (url) => {
 		window.open(url, '_blank', 'noreferrer');
@@ -39,21 +37,19 @@ const Projects = () => {
 							<Heading name={project.id} />
 							<h2>{project.name}</h2>
 							<p>{project.description}</p>
-							<Link
+
+							<button
 								onClick={() => openInNewTab(`${project.link}`)}
 								className='project-button'
 							>
-								<p>View Project</p>{' '}
-								<i>
-									<FaArrowRight />
-								</i>
-							</Link>
+								View Project →
+							</button>
 						</div>
 						<div className='project-image'>
 							<img
-								style={{
-									transform,
-								}}
+								// style={{
+								// 	transform,
+								// }}
 								src={project.image}
 								alt=''
 							/>

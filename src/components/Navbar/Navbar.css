@@ -10,7 +10,7 @@
 	z-index: 10;
 	background-color: rgb(17, 17, 17);
 	width: -webkit-fill-available;
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .navbar-logo {
 	text-decoration: none;
@@ -225,7 +225,7 @@
 	}
 	.social-links .menu-item > div:nth-child(1) span,
 	.social-links .menu-item > div:nth-child(2) span {
-		font-size: 1.3rem;
+		font-size: 1rem;
 	}
 	.navbar-links .menu-item .hover-clone {
 		position: absolute;

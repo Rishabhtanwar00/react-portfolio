@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Caveat&family=Mulish&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 html,
 body,
 div,
@@ -102,6 +102,7 @@ html {
 body {
 	background-color: rgb(17, 17, 17);
 	overflow-x: hidden;
+	font-family: 'Montserrat', serif;
 }
 .router-container {
 	margin-top: 6.2rem;

@@ -6,45 +6,45 @@ const VerticalSeprator = () => {
 			<div className='separator-top'>
 				<p className='separator-text'>
 					<span>RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO&nbsp;</span>
+					<span>&nbsp;2025 PORTFOLIO&nbsp;</span>
 				</p>
 				<p className='separator-text'>
 					<span>RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO&nbsp;</span>
+					<span>&nbsp;2025 PORTFOLIO&nbsp;</span>
 				</p>
 			</div>
 			<div className='separator-bottom'>
 				<p className='separator-text'>
 					<span>RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO&nbsp;</span>
+					<span>&nbsp;2025 PORTFOLIO&nbsp;</span>
 				</p>
 				<p className='separator-text'>
 					<span>RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO</span>
+					<span>&nbsp;2025 PORTFOLIO</span>
 					<span>&nbsp;RISHABH TANWAR</span>
-					<span>&nbsp;2024 PORTFOLIO&nbsp;</span>
+					<span>&nbsp;2025 PORTFOLIO&nbsp;</span>
 				</p>
 			</div>
 		</div>

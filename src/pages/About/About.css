@@ -1,6 +1,6 @@
 .about-container {
 	overflow-x: hidden;
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .about-container .about-landing {
 	display: flex;
@@ -44,7 +44,7 @@
 }
 .about-details .about-intro .intro-place {
 	color: rgb(0, 229, 255);
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .about-details img {
 	position: absolute;
@@ -57,7 +57,8 @@
 	margin: 12rem 12rem 6rem 12rem;
 	padding: 2rem;
 	color: #fff;
-	font-size: 3rem;
+	font-size: 2.4rem;
+	line-height: 1.4;
 }
 .download-button {
 	margin: 0rem 0rem 6rem 12rem;
@@ -90,10 +91,10 @@
 		right: 0;
 		top: 0;
 		height: 50rem;
-		width: 95vw;
+		width: fit-content;
 	}
 	.about-details .about-intro {
-		font-size: 4rem;
+		font-size: 3rem;
 		padding: 1rem 2rem 2rem 2rem;
 		text-align: center;
 	}
@@ -107,7 +108,7 @@
 		margin: 5rem 2rem;
 		padding: 0;
 		text-align: center;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		letter-spacing: 0.5px;
 	}
 

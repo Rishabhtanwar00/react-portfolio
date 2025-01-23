@@ -3,15 +3,15 @@
 	text-decoration: none;
 	color: rgb(0, 229, 255) !important;
 	font-size: 28px;
-	border-radius: 50px;
+	border-radius: 5px;
 	border: solid 1px rgb(0, 229, 255);
 	padding: 13px 50px;
 	transition: 0.5s ease;
 	transition-delay: 0.1s;
-	width: 280px;
+	min-width: 280px;
 	margin-top: 10px;
 	text-align: center;
-	font-family: 'Playfair Display', serif !important;
+	font-family: 'Montserrat', serif !important;
 	transition: all 0.3s ease-out;
 }
 .custom-button .menu-item {
@@ -20,7 +20,7 @@
 	text-transform: lowercase !important;
 }
 .custom-button .menu-item > div:nth-child(1) span {
-	font-size: 22px !important;
+	font-size: 20px !important;
 }
 .custom-button .menu-item .hover-clone {
 	top: 15px;

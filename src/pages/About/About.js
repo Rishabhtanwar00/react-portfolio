@@ -39,9 +39,9 @@ const About = () => {
 							<span>Hey!</span> I am Rishabh,
 						</h1>
 						<h1>
-							A twenty three years <span>old</span>
+							A twenty Four years <span>old</span>
 						</h1>
-						<h1>front-end developer.Currently</h1>
+						<h1>Full stack developer. Currently</h1>
 						<h1>
 							based <span>in</span>
 							<span className='intro-place'> Noida,India.</span>
@@ -54,12 +54,20 @@ const About = () => {
 			<div className='about-me'>
 				<Heading name='About me' ClassName='about-me-heading' />
 				<p>
-					I am working as a software engineer from almost last 3 years with a
-					good hands on with React, JavaScript in frontend development and with
-					Java in backend. I've always wanted to create new things, unique
-					experiences, getting into web development changed a lot of things for
-					me, and since then, I try to push my work to new horizons with each
-					project, always putting quality first.
+					I am a passionate software engineer with over 3.5 years of experience,
+					specializing as a full-stack developer. I have strong expertise in
+					frontend development using React and JavaScript, complemented by
+					backend proficiency in the MERN stack (MongoDB, Express.js, React, and
+					Node.js).
+					<br />
+					<br />
+					Over the years, I’ve developed a strong passion for building practical
+					and innovative solutions that provide seamless user experiences.
+					Working in web development has not only enhanced my technical skills
+					but also shaped how I approach problem-solving and collaboration. With
+					every project, I aim to learn something new and improve, ensuring the
+					applications I create are scalable, efficient, and meet real-world
+					needs
 				</p>
 			</div>
 			<AboutInfo />

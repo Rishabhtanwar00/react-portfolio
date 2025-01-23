@@ -1,5 +1,5 @@
 .about-info-container {
-	font-size: 2.5rem;
+	font-size: 2.0rem;
 	margin: 6rem 12rem;
 	padding: 6rem 0;
 	display: flex;
@@ -23,11 +23,11 @@
 	min-width: 120px;
 	float: left;
 	margin-right: 10px;
-	font-weight: 700;
+	font-weight: 600;
 }
 .about-info ul li span:nth-child(2) {
-	font-weight: 100;
-	font-size: 2.3rem;
+	font-weight: 300;
+	font-size: 1.8rem;
 }
 
 @media screen and (max-width: 1025px) {
@@ -44,7 +44,14 @@
 		width: 100%;
 		float: left;
 	}
+	.about-info ul li{
+		display: flex;
+	}
+	.about-info ul li span:nth-child(1) {
+		font-size: 1.3rem;
+		font-weight: 500;
+	}
 	.about-info ul li span:nth-child(2) {
-		font-size: 20px;
+		font-size: 1.2rem;
 	}
 }

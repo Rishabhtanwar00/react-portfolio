@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-	const line = 'WELCOME TO MY 2024 PORTFOLIO';
+	const line = 'WELCOME TO MY 2025 PORTFOLIO';
 	// to change burger classes
 	const [burger_class, setBurgerClass] = useState('burger-bar unclicked');
 	const [menu_class, setMenuClass] = useState('navbar-links hidden');
