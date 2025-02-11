@@ -1,9 +1,9 @@
 import React from 'react';
 import './Heading.css';
 
-const Heading = ({ name, ClassName }) => {
+const Heading = ({ name }) => {
 	return (
-		<div className={`heading-head ${ClassName}`}>
+		<div className='heading-head'>
 			<div className='heading-design-line'>
 				<div className='heading-design1'></div>
 				<div className='heading-design2'></div>

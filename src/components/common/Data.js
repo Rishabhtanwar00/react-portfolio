@@ -5,9 +5,12 @@ import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 import { MdOutlineAutorenew } from 'react-icons/md';
 import { TbDeviceDesktopAnalytics } from 'react-icons/tb';
 
-import project1 from '../../assests/project1.png';
-import project3 from '../../assests/project3.png';
-import project4 from '../../assests/project4.png';
+import project1 from '../../assests/trendfusion.jpg';
+import project2 from '../../assests/connectus.jpg';
+import project3 from '../../assests/kraduae.jpg';
+import project4 from '../../assests/primefileadvisors.jpg';
+import project5 from '../../assests/elitegensoftware.jpg';
+import project6 from '../../assests/twilearn.jpg';
 
 export const aboutInfoA = [
 	{
@@ -193,34 +196,50 @@ export const experienceArray = [
 export const projectsArray = [
 	{
 		id: '01',
-		name: 'Prime File Advisors',
+		name: 'TrendFusion E-Commerce App',
 		description:
-			'Designing and Developed a web app using React Streamlining Acquisition of all necessary financial documents, One stop solution for immigration agencies and Comprehensive Business Support.',
-		link: 'https://primefileadvisors.com/',
+			'A full-stack e-commerce platform built with React, Node.js, Express, MongoDB, and Context API. Features include JWT authentication, Stripe & Razorpay payment gateways, an admin panel for managing products and orders, and a sleek UI powered by TailwindCSS.',
+		link: 'https://trendfusion-frontend.vercel.app/',
 		image: project1,
 	},
 	{
 		id: '02',
-		name: 'Valuation Point',
+		name: 'Connect Us',
 		description:
-			'Developed a template using front end technologies to help businesses to enhance their productivity and grow using website and explore the power of internet. ',
-		link: 'https://valuationpoint.netlify.app/',
-		image: project3,
+			'A developer networking platform designed to connect tech professionals globally. Built with React, Node.js, Express, MongoDB, and Redux, it features secure JWT authentication, real-time updates, and a responsive UI with CSS styling.',
+		link: 'https://connectdevs.netlify.app/',
+		image: project2,
 	},
 	{
 		id: '03',
-		name: 'Web Magic- Freelancer template',
+		name: 'Kraduae',
 		description:
-			'Developed a template using front end technologies to help businesses to enhance their productivity and grow using website and explore the power of internet. ',
-		link: 'https://webmagic.netlify.app/',
+			'An interactive business website for a steel industry, developed using React, CSS, and GSAP. Features smooth animations, a modern UI, and an engaging design to enhance business outreach.',
+		link: 'https://kraduae.com/',
 		image: project3,
 	},
 	{
 		id: '04',
-		name: "Let's Get It Done",
+		name: 'Prime File Advisors',
 		description:
-			'Created a stylish, easy to navigate and use to do list using web develoment using which you can prioritize your work and personal tasks.',
-		link: 'https://letsgetitdone.netlify.app/',
+			'A professional website for a chartered accountancy firm, designed with React, CSS, and Framer Motion. Focused on an elegant UI, seamless navigation, and smooth animations for enhanced user experience.',
+		link: 'https://primefileadvisors.com/',
 		image: project4,
+	},
+	{
+		id: '05',
+		name: 'Elite Softwarehub',
+		description:
+			'A business solutions platform offering company registration, website/app development, and digital marketing services. Built with React, CSS, and GSAP, it features an intuitive UI and engaging animations to showcase services effectively.',
+		link: 'https://elitesoftwarehub.com/',
+		image: project5,
+	},
+	{
+		id: '06',
+		name: 'Twilearn EduTech',
+		description:
+			'An online education platform developed with React, CSS, and React Hook Form. Offers interactive learning modules, structured course management, and a user-friendly interface for students.',
+		link: 'https://www.twilearn.in/',
+		image: project6,
 	},
 ];

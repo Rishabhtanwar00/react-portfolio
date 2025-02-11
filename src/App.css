@@ -104,6 +104,17 @@ body {
 	overflow-x: hidden;
 	font-family: 'Montserrat', serif;
 }
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 .router-container {
 	margin-top: 6.2rem;
 }

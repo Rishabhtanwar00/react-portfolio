@@ -30,33 +30,27 @@ const Projects = () => {
 				<h1>SELECTED</h1>
 				<h1>PROJECTS</h1>
 			</div>
-			<div className='projects-data'>
-				{projectsArray.map((project, index) => (
-					<div key={index} className='project-container'>
-						<div className='Project-details'>
-							<Heading name={project.id} />
-							<h2>{project.name}</h2>
-							<p>{project.description}</p>
+			<section className='projects'>
+				{projectsArray.map((item) => (
+					<div className='project' key={item.id}>
+						<div className='project-image'>
+							<img src={item.image} alt='' />
+						</div>
+						<div className='project-details'>
+							<Heading name={item.id} />
+							<h1>{item.name}</h1>
+							<p>{item.description}</p>
 
 							<button
-								onClick={() => openInNewTab(`${project.link}`)}
+								onClick={() => openInNewTab(item.link)}
 								className='project-button'
 							>
-								View Project →
+								View Project &#10547;{' '}
 							</button>
-						</div>
-						<div className='project-image'>
-							<img
-								// style={{
-								// 	transform,
-								// }}
-								src={project.image}
-								alt=''
-							/>
 						</div>
 					</div>
 				))}
-			</div>
+			</section>
 		</div>
 	);
 };
