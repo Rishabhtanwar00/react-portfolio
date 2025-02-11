@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomButton from '../CustomButton/CustomButton';
-import Resume from '../../assests/resume.pdf';
+import Resume from '../../assets/resume.pdf';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import './Landing.css';

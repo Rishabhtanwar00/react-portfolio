@@ -22,18 +22,12 @@
 	font-size: 25px;
 	font-family: 'Caveat', serif;
 	text-decoration: none;
-	transition: color 0.3s ease-out;
-}
-
-.navbar-logo:hover.navbar-logo h2 {
 	color: rgb(0, 229, 255);
-	transition: color 0.3s ease-in;
 }
 .navbar .navbar-links {
 	display: flex;
 	padding-right: 30px;
 }
-
 .navbar-links .menu-item,
 .social-links .menu-item,
 .custom-button .menu-item {

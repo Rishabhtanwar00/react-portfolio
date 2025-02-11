@@ -11,7 +11,7 @@
 .landing .landing-image {
 	height: 50rem;
 	width: 45rem;
-	background-image: url('../../assests/me-1.jpg');
+	background-image: url('../../assets/me-1.jpg');
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: cover;

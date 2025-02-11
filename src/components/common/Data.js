@@ -5,12 +5,12 @@ import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 import { MdOutlineAutorenew } from 'react-icons/md';
 import { TbDeviceDesktopAnalytics } from 'react-icons/tb';
 
-import project1 from '../../assests/trendfusion.jpg';
-import project2 from '../../assests/connectus.jpg';
-import project3 from '../../assests/kraduae.jpg';
-import project4 from '../../assests/primefileadvisors.jpg';
-import project5 from '../../assests/elitegensoftware.jpg';
-import project6 from '../../assests/twilearn.jpg';
+import project1 from '../../assets/trendfusion.jpg';
+import project2 from '../../assets/connectus.jpg';
+import project3 from '../../assets/kraduae.jpg';
+import project4 from '../../assets/primefileadvisors.jpg';
+import project5 from '../../assets/elitegensoftware.jpg';
+import project6 from '../../assets/twilearn.jpg';
 
 export const aboutInfoA = [
 	{

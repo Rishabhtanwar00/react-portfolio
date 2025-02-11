@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import MyImage from '../../assests/me-2.jpg';
-import Resume from '../../assests/resume.pdf';
+import MyImage from '../../assets/me-2.jpg';
+import Resume from '../../assets/resume.pdf';
 import VerticalSeprator from '../../components/Seprator//VerticalSeprator';
 import HorizontalSeprator from '../../components/Seprator//HorizontalSeprator';
 import AboutInfo from '../../components/AboutInfo/AboutInfo';
