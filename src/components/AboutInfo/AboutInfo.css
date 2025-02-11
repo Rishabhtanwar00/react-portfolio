@@ -8,7 +8,6 @@
 	color: #fff;
 	border-top: 2px solid rgb(0, 229, 255);
 	border-bottom: 2px solid rgb(0, 229, 255);
-	word-wrap: break-word;
 }
 .about-info-container .right {
 	float: right;
@@ -21,9 +20,8 @@
 	letter-spacing: 1px;
 }
 .about-info ul li span:nth-child(1) {
-	min-width: 120px;
+	min-width: 100px;
 	float: left;
-	margin-right: 10px;
 	font-weight: 600;
 }
 .about-info ul li span:nth-child(2) {
